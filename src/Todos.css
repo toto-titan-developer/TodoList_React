@@ -1,0 +1,19 @@
+.gridbox{
+    display: grid;
+    grid-template-columns: auto 50px 200px auto;
+}
+
+.check {
+    margin: 0px;
+    height: 30px;
+    width: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-shadow: -1px -1px white, -1px 1px black, 1px 1px black, 1px 1px white;
+}
